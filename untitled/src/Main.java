@@ -91,8 +91,18 @@ public class Main {
 
 
        //以降にテストコードを追加して検証を行う
+  //comの手を生成
 
+       com.createRandomHand();
+
+       //以降にテストコードを追加して検証を行う
+
+
+   //勝敗決定
+
+       int result = game.judge(user, com);
 
 
    }
+
 }
